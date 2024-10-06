@@ -1,0 +1,138 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login container */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+    transform: scale(1.02);
+}
+
+.login-container img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #1e90ff;
+    outline: none;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #777;
+}
+
+/* Social buttons styles */
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent; /* Default border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-btn img {
+    width: 24px; /* Increased logo size */
+    margin-right: 10px;
+}
+
+/* Google button */
+.google-btn {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.google-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Facebook button */
+.facebook-btn {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.facebook-btn:hover {
+    background-color: #145dbf;
+}
+
+/* Apple button */
+.apple-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+.apple-btn:hover {
+    background-color: #444;
+}
+
+/* X button */
+.x-btn {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.x-btn:hover {
+    background-color: #f0f0f0;
+}
+
